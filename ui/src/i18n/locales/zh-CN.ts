@@ -325,7 +325,7 @@ export const zh_CN: TranslationMap = {
     snapshotsSubtitle: "状态、健康状况和运行数据。",
     status: "状态",
     health: "健康状况",
-    lastHeartbeat: "Last Heartbeat",
+    lastHeartbeat: "最后心跳",
     security: {
       audit: "安全审计",
       critical: "{count} 个严重问题",
