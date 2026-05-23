@@ -196,7 +196,7 @@ export const zh_CN: TranslationMap = {
     on: "开启",
     off: "关闭",
     full: "完整",
-    stream: "串流",
+    stream: "流式",
     customOption: "{value}（自定义）",
     manual: "手动",
     autoThreshold: "自动阈值",
@@ -490,7 +490,7 @@ export const zh_CN: TranslationMap = {
       metadataUpgradeTitle: "设备元数据更改等待批准。",
       metadataUpgradeSummary: "此设备已配对，但元数据更改仍在等待批准。",
       mobileHint:
-      "在手机上？从桌面运行 openclaw dashboard --no-open 复制完整 URL（包括 #token=...）。",
+        "在手机上？从桌面运行 openclaw dashboard --no-open 复制完整 URL（包括 #token=...）。",
       docsTitle: "设备配对文档（在新标签页中打开）",
       docsLink: "文档：设备配对",
     },
@@ -590,8 +590,7 @@ export const zh_CN: TranslationMap = {
     restartConfirmation: {
       title: "重启 Gateway 以应用更改",
       subtitle: "更改梦境模式将重启 Gateway。",
-      warning:
-      "此操作将重启 Gateway，可能会暂时中断聊天、自动化和已连接的频道。",
+      warning: "此操作将重启 Gateway，可能会暂时中断聊天、自动化和已连接的频道。",
       confirm: "确认重启",
       restarting: "重启中…",
       failed: "无法应用更改。请检查连接并重试。",
@@ -707,8 +706,8 @@ export const zh_CN: TranslationMap = {
       today: "今天",
       last7d: "7天",
       last30d: "30天",
-      last90d: "90天",
-      last1y: "1年",
+      last90d: "90d",
+      last1y: "1y",
       all: "全部",
     },
     scope: {
@@ -811,7 +810,7 @@ export const zh_CN: TranslationMap = {
       avgCost: "平均成本 / 消息",
       avgCostHint: "当提供商报告成本时，每条消息的平均成本。",
       avgCostHintMissing:
-      "当提供商报告成本时，每条消息的平均成本。此范围内部分或全部会话缺少成本数据。",
+        "当提供商报告成本时，每条消息的平均成本。此范围内部分或全部会话缺少成本数据。",
       acrossMessages: "共 {count} 条消息",
       sessions: "会话",
       sessionsHint: "范围内的不重复会话数。",
@@ -990,7 +989,7 @@ export const zh_CN: TranslationMap = {
         title: "协议不匹配",
         summary: "提供的 Control UI 与正在运行的 Gateway 对支持的连接协议不一致。",
         stepDashboard:
-        "使用 openclaw dashboard 重新打开提供的 dashboard，确保 UI 和 Gateway 来自同一安装。",
+          "使用 openclaw dashboard 重新打开提供的 dashboard，确保 UI 和 Gateway 来自同一安装。",
         stepDevUi: "如果使用 pnpm ui:dev，请基于当前 checkout 重新构建或重启开发 UI。",
         stepRestart: "更新 OpenClaw 后重启 Gateway，使其提供当前协议。",
       },
@@ -1000,7 +999,7 @@ export const zh_CN: TranslationMap = {
         stepGateway: "使用 openclaw status 或 openclaw gateway run 确认 Gateway 正在运行。",
         stepUrl: "检查 WebSocket URL；当 Gateway 位于 HTTPS/Tailscale Serve 后面时使用 wss://。",
         stepDashboard:
-        "使用 openclaw dashboard --no-open 重新打开 dashboard，以重新复制当前 URL 和认证详情。",
+          "使用 openclaw dashboard --no-open 重新打开 dashboard，以重新复制当前 URL 和认证详情。",
       },
     },
   },
@@ -1024,17 +1023,17 @@ export const zh_CN: TranslationMap = {
     openCommandPalette: "打开命令面板",
     docsOpensInNewTab: "{label}（在新标签页中打开）",
     updateAvailable: "有可用更新：",
-    runningVersion: "运行中版本: v{version}",
+    runningVersion: "正在运行 v{version}",
     updating: "正在更新…",
     updateNow: "立即更新",
     dismissUpdateBanner: "关闭更新横幅",
     switchedSession: "已切换到 {session}",
     welcome: {
       ready: "准备好聊天",
-      hintBeforeShortcut: "在下方输入消息 · ",
+      hintBeforeShortcut: "在下方输入消息 · 输入",
       hintAfterShortcut: "查看命令",
       suggestions: {
-        whatCanYouDo: "你都能做什么？",
+        whatCanYouDo: "你能做什么？",
         summarizeRecentSessions: "总结我最近的会话",
         configureChannel: "帮我配置一个频道",
         checkSystemHealth: "检查系统健康状况",
@@ -1056,10 +1055,10 @@ export const zh_CN: TranslationMap = {
       placeholderWithAttachments: "添加消息或继续粘贴图片...",
       placeholderDisconnected: "连接到 Gateway 后开始聊天...",
       attachFile: "附加文件",
-      startTalk: "开始讲话",
+      startTalk: "开始 Talk",
       stillListening: "仍在聆听",
       talkTranscript: "语音转写",
-      stopTalk: "停止讲话",
+      stopTalk: "停止 Talk",
     },
     selectors: {
       agentFilter: "按代理筛选会话",
@@ -1081,26 +1080,26 @@ export const zh_CN: TranslationMap = {
     jaJP: "日本語 (日语)",
     ko: "한국어 (韩语)",
     fr: "Français (法语)",
-    ar: "العربية (阿拉伯语)",
-    it: "Italiano (意大利语)",
+    ar: "العربية（阿拉伯语）",
+    it: "Italiano（意大利语）",
     tr: "Türkçe (土耳其语)",
     uk: "Українська (乌克兰语)",
     id: "Bahasa Indonesia (印度尼西亚语)",
     pl: "Polski (波兰语)",
     th: "ไทย (泰语)",
-    vi: "Tiếng Việt (越南语)",
-    nl: "Nederlands (荷兰语)",
-    fa: "فارسی (波斯语)",
+    vi: "Tiếng Việt（越南语）",
+    nl: "Nederlands（荷兰语）",
+    fa: "فارسی（波斯语）",
   },
   cron: {
     quickCreate: {
       schedules: {
         everyMorning: {
-          label: "每天清晨",
-          description: "每天早上 8:00",
+          label: "每天早上",
+          description: "每天上午 8:00",
         },
         everyEvening: {
-          label: "每天傍晚",
+          label: "每天晚上",
           description: "每天晚上 6:00",
         },
         hourly: {
@@ -1117,7 +1116,7 @@ export const zh_CN: TranslationMap = {
         },
         once: {
           label: "运行一次",
-          description: "一次性，运行一次后删除",
+          description: "一次性，运行后删除",
         },
       },
       delivery: {
