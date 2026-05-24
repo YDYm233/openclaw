@@ -1,5 +1,5 @@
 {
-  "fallbackKeys": 0,
+  "fallbackKeys": [],
   "generatedAt": "2026-05-23T19:15:48.982Z",
   "locale": "zh-CN",
   "model": "claude-opus-4-7",
