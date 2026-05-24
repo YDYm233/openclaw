@@ -823,7 +823,7 @@ export const zh_CN: TranslationMap = {
       errorHint: "错误率 = 错误数 / 消息总数。越低越好。",
       avgSession: "平均会话",
       cacheHitRate: "缓存命中率",
-      cacheHint: "缓存命中率 = 缓存读取 /（输入 + 缓存读写）。越高越好。",
+      cacheHint: "缓存命中率 = 缓存读取 /（输入 + 缓存读取 + 缓存写入）。越高越好。",
       cached: "已缓存",
       prompt: "提示",
       calls: "调用",
