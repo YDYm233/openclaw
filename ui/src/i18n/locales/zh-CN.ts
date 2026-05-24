@@ -91,7 +91,7 @@ export const zh_CN: TranslationMap = {
     },
     gatewayUrlConfirmation: {
       title: "更改 Gateway URL",
-      subtitle: "这将重新连接到其他 Gateway 服务器",
+      subtitle: "这将重新连接至另一个 Gateway 服务器",
       warning: "仅当你信任此 URL 时才确认。恶意 URL 可能会危及你的系统安全。",
     },
     nostr: {
@@ -333,7 +333,7 @@ export const zh_CN: TranslationMap = {
       noCriticalIssues: "无严重问题",
       info: "{count} 条信息",
       runPrefix: "运行",
-      runSuffix: "查看详情。",
+      runSuffix: "以查看详情",
     },
     manualRpcTitle: "手动 RPC",
     manualRpcSubtitle: "发送带 JSON 参数的原始 Gateway 方法。",
@@ -441,7 +441,7 @@ export const zh_CN: TranslationMap = {
       passwordPlaceholder: "系统或共享密码",
       sessionKey: "默认会话密钥",
       language: "语言",
-      connectHint: "点击连接以应用连接更改。",
+      connectHint: "点击连接以应用更改。",
       trustedProxy: "通过受信任代理认证。",
       showToken: "显示令牌",
       hideToken: "隐藏令牌",
