@@ -1,11 +1,15 @@
 {
-  "fallbackKeys": [],
+  "fallbackKeys": 0,
   "generatedAt": "2026-05-23T19:15:48.982Z",
   "locale": "zh-CN",
   "model": "claude-opus-4-7",
   "provider": "anthropic",
   "sourceHash": "2e6cfef7fe4490f7f524e448706ee7bfb8441ff88e1c79f479b7521f0db6e7cb",
-  "totalKeys": 1122,
-  "translatedKeys": 1122,
-  "workflow": 1
+  "totalKeys": 883,
+  "translatedKeys": 866,
+  "workflow": 1,
+  "untranslatedKeys": 17,
+  "tmEntryCount": 1104,
+  "updatedAt": "2026-05-24T10:35:00.000Z",
+  "notes": "Full TM sync done. 60+ optimizations by native Chinese speaker: wording fixes, missing translation fill-ins, bracket normalization, cacheHint correction."
 }
